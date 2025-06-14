@@ -8,7 +8,7 @@ import mediapipe as mp
 import requests
 import time
 
-# ── 0. Pushover configuration ────────────────────────────────────────────────
+# ── 0. Pushover configuration 
 PUSHOVER_APP_TOKEN = " replace "     # ← replace
 PUSHOVER_USER_KEY  = "replace"      # ← replace
 PUSHOVER_SOUND     = "replace"                   # any built-in sound name
