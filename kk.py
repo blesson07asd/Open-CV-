@@ -1,6 +1,6 @@
 """
-Real-time hand-landmark detection with MediaPipe
-Python 3.11 | mediapipe >= 0.10  |OpenCV 4.x
+##Real-time hand-landmark detection with MediaPipe
+##Python 3.11 | mediapipe >= 0.10  |OpenCV 4.x
 """
 
 import cv2
