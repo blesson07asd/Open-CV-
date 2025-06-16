@@ -1,5 +1,5 @@
 """
-Human-body detector + Pushover alert
+Human-body detector + Pushove r alert
 Python 3.11 | OpenCV 4.x | MediaPipe >= 0.10
 """
 
