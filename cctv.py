@@ -1,7 +1,6 @@
-"""
-Human-body detector + Pushove r alert
-Python 3.11 | OpenCV 4.x | MediaPipe >= 0.10
-"""
+
+#Human-body detector + Pushove r alert
+#Python 3.11 | OpenCV 4.x | MediaPipe >= 0.10
 
 import cv2
 import mediapipe as mp
