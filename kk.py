@@ -16,12 +16,12 @@ hands = mp_hands.Hands(
 )
 mp_draw = mp.solutions.drawing_utils
 
-# ── 2. Open the default webcam ──────────────────────────────────────────────────
+# Open the default webcam 
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     raise RuntimeError("Webcam could not be opened.")
 
-# ── 3. Main loop ────────────────────────────────────────────────────────────────
+#  Main loop 
 while True:
     ret, frame = cap.read()
     if not ret:
