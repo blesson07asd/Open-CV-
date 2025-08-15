@@ -6,7 +6,7 @@
 import cv2
 import mediapipe as mp
 
-# ── 1. Initialize MediaPipe Hands ───────────────────────────────────────────────
+#  1. Initialize MediaPipe Hands 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
     static_image_mode=False,        # input is stream/video, not still photos
