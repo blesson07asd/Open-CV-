@@ -51,7 +51,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-# ── 4. Clean-up ────────────────────────────────────────────────────────────────
+# 4. Clean-up 
 cap.release()
 cv2.destroyAllWindows()
 hands.close()
