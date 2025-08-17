@@ -8,8 +8,8 @@ import requests
 import time
 
 # ── 0. Pushover configuration 
-PUSHOVER_APP_TOKEN = " replace "     # ← replace
-PUSHOVER_USER_KEY  = "replace"      # ← replace
+PUSHOVER_APP_TOKEN = " replace "     
+PUSHOVER_USER_KEY  = "replace"      
 PUSHOVER_SOUND     = "replace"                   # any built-in sound name
 ALERT_COOLDOWN_SEC = 2                      # minimum seconds between alerts
 
