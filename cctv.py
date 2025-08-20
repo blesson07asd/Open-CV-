@@ -11,7 +11,7 @@ import time
 PUSHOVER_APP_TOKEN = " replace "     
 PUSHOVER_USER_KEY  = "replace"      
 PUSHOVER_SOUND     = "replace"                   # any built-in sound name
-ALERT_COOLDOWN_SEC = 2                      # minimum seconds between alerts
+ALERT_COOLDOWN_SEC = 2                           # minimum seconds between alerts
 
 def send_pushover_alert(message: str) -> None:
     """Send a push notification with sound via Pushover."""
