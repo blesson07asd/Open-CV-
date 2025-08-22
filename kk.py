@@ -10,9 +10,9 @@ import mediapipe as mp
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
     static_image_mode=False,        # input is stream/video, not still photos
-    max_num_hands=4,                # detect up to two hands
-    min_detection_confidence=0.5,   # threshold for the palm detector
-    min_tracking_confidence=0.5     # threshold for landmark tracker
+    max_num_hands=4,                # det ect up to two hands
+    min_detection_confidence=0.5,   # thr eshold for the palm detector
+    min_tracking_confidence=0.5     # thre shold for landmark tracker
 )
 mp_draw = mp.solutions.drawing_utils
 
